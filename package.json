@@ -6,12 +6,12 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "eslint": "eslint --ext .js src/ test/",
-    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js / test/",
+    "htmlhint": "htmlhint /*.html test/*.html",
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
-    "start": "serve src/"
+    "start": "serve /"
   },
   "repository": {
     "type": "git",
